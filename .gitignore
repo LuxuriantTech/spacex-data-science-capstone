@@ -3,3 +3,4 @@ DATA_ACQUISITION.json
 __pycache__/
 *.pyc
 results/*/
+notebooks/.ipynb_checkpoints/

@@ -29,6 +29,10 @@ The scripts write their outputs under `results/`. Start the dashboard with `pyth
 
 The API script uses IBM's saved JSON response by default. Its optional `--probe-live` flag makes one request with a ten-second timeout. Live enrichment is unfinished because the API returned HTTP 522 during this project.
 
+## Notebooks
+
+The seven [notebooks](notebooks/) cover the same steps as the scripts, with saved results and charts. After running `download_inputs.py`, open them in Jupyter from this project. Their data paths are relative to the repository. The API enrichment and the full visual review of the maps remain incomplete, as noted in the relevant notebooks.
+
 ## Results and limits
 
 All four classifiers correctly classify 15 of the 18 test records in the IBM protocol. The decision tree has the highest mean cross-validation score in this run. However, the protocol scales the data before splitting it and includes the retrospective `ReusedCount` field. These scores therefore do not establish how well the models would predict future launches. The course's `Class` label includes ocean and unknown outcomes; it is not a direct measure of reusable booster recovery.
