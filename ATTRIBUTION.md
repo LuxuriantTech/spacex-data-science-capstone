@@ -1,6 +1,6 @@
 # Sources and credit
 
-This project is based on the public IBM DS0321EN Skills Network SpaceX labs. The source notebooks credit IBM and their authors, including Joseph Santarcangelo, Nayef Abou Tayoun and Yan Luo. This repository contains adapted analysis scripts; the teaching notebooks and presentation template are not included.
+This project is based on the public IBM DS0321EN Skills Network SpaceX labs. The source notebooks credit IBM and their authors, including Joseph Santarcangelo, Nayef Abou Tayoun and Yan Luo. This repository contains adapted analysis scripts and seven adapted notebooks in `notebooks/`. The original IBM notebook files and presentation template are not redistributed.
 
 `SOURCES.json` lists the input URLs and SHA-256 hashes. The web-scraping script uses the saved Wikipedia revision 1027686922. It downloads that page as an input rather than storing it in the repository.
 

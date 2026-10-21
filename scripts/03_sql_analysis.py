@@ -13,17 +13,17 @@ OUT=HERE/'results'/'03_sql_sqlite_official_variant'
 OUT.mkdir(parents=True,exist_ok=True)
 os.chdir(OUT)
 
-# Already available sqlite3 and pandas; obsolete forced SQLAlchemy installation skipped.
+# Use SQLite through Python's standard library.
 
-# SQL executed through the standard sqlite3 interface; no pip installation.
+# Run SQL queries with sqlite3 and pandas.
 
-# No notebook SQL magic required.
+
 
 import csv,sqlite3
 con=sqlite3.connect('spacex_local.sqlite')
 cur=con.cursor()
 
-# pandas already available.
+
 
 print('SQLite version',sqlite3.sqlite_version)
 

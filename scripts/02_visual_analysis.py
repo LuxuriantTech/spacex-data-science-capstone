@@ -22,7 +22,7 @@ def save_current_figure():
     plt.savefig(OUT/f'figure_{_figure_number:02d}.png',dpi=150)
     plt.close()
 
-# andas is a software library written for the Python programming language for data manipulation and analysis.
+# Load the launch data for the plots.
 import pandas as pd
 #NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays
 import numpy as np

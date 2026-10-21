@@ -13,7 +13,7 @@ OUT=HERE/'results'/'07_folium_partial_v2'
 OUT.mkdir(parents=True,exist_ok=True)
 os.chdir(OUT)
 
-# Folium already installed in isolated dependencies; urllib acquisition preserved separately.
+# Build maps from the supplied launch coordinates.
 
 import folium
 import pandas as pd
@@ -37,9 +37,9 @@ launch_sites_df
 nasa_coordinate = [29.559684888503615, -95.0830971930759]
 site_map = folium.Map(location=nasa_coordinate, zoom_start=10)
 
-# Create a blue circle at NASA Johnson Space Center's coordinate with a popup label showing its name
+# Add an orange circle and a popup for NASA Johnson Space Center.
 circle = folium.Circle(nasa_coordinate, radius=1000, color='#d35400', fill=True).add_child(folium.Popup('NASA Johnson Space Center'))
-# Create a blue circle at NASA Johnson Space Center's coordinate with a icon showing its name
+# Add the NASA Johnson Space Center text marker.
 marker = folium.map.Marker(
     nasa_coordinate,
     # Create an icon as a text label

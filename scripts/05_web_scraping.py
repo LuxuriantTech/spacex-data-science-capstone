@@ -13,7 +13,7 @@ OUT=HERE/'results'/'05_web_scraping'
 OUT.mkdir(parents=True,exist_ok=True)
 os.chdir(OUT)
 
-# beautifulsoup4 and requests already available through isolated local dependencies.
+# Parse the saved page with Beautiful Soup.
 
 import sys
 
