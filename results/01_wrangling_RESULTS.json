@@ -1,0 +1,18 @@
+{
+  "rows": 90,
+  "successes": 60,
+  "success_rate": 0.6666666666666666,
+  "official_Class_column_matches_all_rows": true,
+  "site_counts": {
+    "CCAFS SLC 40": 55,
+    "KSC LC 39A": 22,
+    "VAFB SLC 4E": 13
+  },
+  "bad_outcomes": [
+    "False ASDS",
+    "False Ocean",
+    "False RTLS",
+    "None ASDS",
+    "None None"
+  ]
+}

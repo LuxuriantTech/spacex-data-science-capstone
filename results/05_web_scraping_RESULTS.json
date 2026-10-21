@@ -1,0 +1,8 @@
+{
+  "rows": 121,
+  "first_flight": "1",
+  "last_flight": "121",
+  "all_column_lengths_match": true,
+  "source_revision": "1027686922",
+  "scope": "Numeric Falcon 9 flight identifiers from IBM-specified Wikipedia snapshot; no future operational inference."
+}

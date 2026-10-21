@@ -1,0 +1,77 @@
+{
+  "models": [
+    {
+      "model": "Logistic regression",
+      "best_cv_accuracy": 0.8464285714285713,
+      "test_accuracy": 0.8333333333333334,
+      "correct": 15,
+      "test_n": 18,
+      "confusion_matrix": [
+        [
+          3,
+          3
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "candidates": 3
+    },
+    {
+      "model": "SVM",
+      "best_cv_accuracy": 0.8482142857142856,
+      "test_accuracy": 0.8333333333333334,
+      "correct": 15,
+      "test_n": 18,
+      "confusion_matrix": [
+        [
+          3,
+          3
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "candidates": 125
+    },
+    {
+      "model": "Decision tree",
+      "best_cv_accuracy": 0.8767857142857143,
+      "test_accuracy": 0.8333333333333334,
+      "correct": 15,
+      "test_n": 18,
+      "confusion_matrix": [
+        [
+          3,
+          3
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "candidates": 324
+    },
+    {
+      "model": "KNN",
+      "best_cv_accuracy": 0.8482142857142858,
+      "test_accuracy": 0.8333333333333334,
+      "correct": 15,
+      "test_n": 18,
+      "confusion_matrix": [
+        [
+          3,
+          3
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "candidates": 80
+    }
+  ],
+  "protocol_limit": "Standardization before split follows IBM template; contains leakage. Small reused holdout, descriptive lab results only."
+}

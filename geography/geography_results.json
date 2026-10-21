@@ -1,0 +1,142 @@
+{
+  "source": "IBM/Skills Network spacex_launch_geo.csv exact KSC LC-39A coordinate",
+  "target": {
+    "name": "KSC LC-39A",
+    "lat": 28.57325457,
+    "lon": -80.64689529
+  },
+  "method": "Nearest point on OSM way segments, local equirectangular projection at the target; city proximity is shortest distance to current Census Incorporated Place polygon boundary. Distances are local, bounded to acquired data and candidate query scope.",
+  "osm_nearest": {
+    "coastline": {
+      "distance_m": 6444.63,
+      "distance_km": 6.4446,
+      "osm_way_id": "22322002",
+      "tags": {
+        "natural": "coastline",
+        "source": "PGS"
+      },
+      "nearest_latlon": [
+        28.60852034,
+        -80.59452268
+      ]
+    },
+    "railway": {
+      "distance_m": 686.6,
+      "distance_km": 0.6866,
+      "osm_way_id": "1279388615",
+      "tags": {
+        "operator": "NASA Railroad",
+        "railway": "rail",
+        "service": "spur",
+        "usage": "military"
+      },
+      "nearest_latlon": [
+        28.572947,
+        -80.6539176
+      ]
+    },
+    "highway": {
+      "distance_m": 350.53,
+      "distance_km": 0.3505,
+      "osm_way_id": "1222127097",
+      "tags": {
+        "access": "private",
+        "highway": "service",
+        "service": "driveway"
+      },
+      "nearest_latlon": [
+        28.5754777,
+        -80.6443503
+      ]
+    }
+  },
+  "nearest_incorporated_place_boundary": [
+    {
+      "name": "Titusville",
+      "geoid": "1271900",
+      "boundary_distance_m": 12607.983888332592,
+      "inside": false
+    },
+    {
+      "name": "Cape Canaveral",
+      "geoid": "1210250",
+      "boundary_distance_m": 19066.897209789324,
+      "inside": false
+    },
+    {
+      "name": "Cocoa",
+      "geoid": "1213150",
+      "boundary_distance_m": 20629.339956361968,
+      "inside": false
+    },
+    {
+      "name": "Cocoa Beach",
+      "geoid": "1213175",
+      "boundary_distance_m": 22545.807155630693,
+      "inside": false
+    },
+    {
+      "name": "Rockledge",
+      "geoid": "1261500",
+      "boundary_distance_m": 25736.13001364073,
+      "inside": false
+    }
+  ],
+  "limitations": [
+    "OSM API bbox snapshots provide only downloaded area; nearest feature globally is not established outside the acquired boxes.",
+    "Census query returned incorporated-place polygons within a 50 km query radius. This does not include Census Designated Places or all named settlements.",
+    "Not the original Coursera lab completed; this is a separate supplemental computation."
+  ],
+  "nearest_major_highway_classes": {
+    "motorway": null,
+    "trunk": null,
+    "primary": null,
+    "secondary": {
+      "distance_m": 835.03,
+      "distance_km": 0.835,
+      "osm_way_id": "301087955",
+      "tags": {
+        "access": "private",
+        "expressway": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "55 mph",
+        "name": "Kennedy Parkway North",
+        "old_ref:1945": "3",
+        "oneway": "yes",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Brevard, FL",
+        "tiger:name_base": "Kennedy",
+        "tiger:name_base_1": "County Road 3",
+        "tiger:name_direction_suffix": "N",
+        "tiger:name_type": "Pky"
+      },
+      "nearest_latlon": [
+        28.57312989,
+        -80.65544519
+      ]
+    },
+    "tertiary": {
+      "distance_m": 1774.47,
+      "distance_km": 1.7745,
+      "osm_way_id": "377709959",
+      "tags": {
+        "access": "private",
+        "highway": "tertiary",
+        "maxspeed": "55 mph",
+        "name": "Kennedy Parkway North",
+        "old_ref:1945": "3",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Brevard, FL",
+        "tiger:name_base": "Kennedy",
+        "tiger:name_base_1": "State Highway 3",
+        "tiger:name_direction_suffix": "N",
+        "tiger:name_type": "Pky"
+      },
+      "nearest_latlon": [
+        28.5865752,
+        -80.6569018
+      ]
+    }
+  }
+}

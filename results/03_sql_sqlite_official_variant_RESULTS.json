@@ -1,0 +1,7 @@
+{
+  "rows": 101,
+  "tasks": 10,
+  "nasa_crs_payload_kg": 45596,
+  "first_ground_pad_date": "2015-12-22",
+  "engine": "sqlite3; official IBM SQLite variant"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "dataset_part_1.csv",
+    "url": "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_1.csv",
+    "sha256": "606fecaf0209f41cc79aeb383b8519ba854bab8b198762952bf0c3c34e0c6c6f"
+  },
+  {
+    "name": "dataset_part_2.csv",
+    "url": "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_2.csv",
+    "sha256": "176e74024eb330504fc392a2784dc0b25a605f5748d2f7df6d490f073c08edeb"
+  },
+  {
+    "name": "dataset_part_3.csv",
+    "url": "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_3.csv",
+    "sha256": "cd88834e78fd23cca1500590092d91a9f29b5e5be1a9367f0c27ba48e2607f4c"
+  },
+  {
+    "name": "spacex_launch_geo.csv",
+    "url": "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/spacex_launch_geo.csv",
+    "sha256": "7c901d477e8b7916d975bb5dced8f6e5ac0bd0121aa27f3796659a289eb7013a"
+  },
+  {
+    "name": "API_call_spacex_api.json",
+    "url": "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/API_call_spacex_api.json",
+    "sha256": "a94498f2971099af19926d1b538e784803db3d88eeade9035639e088b0a8fe1e"
+  },
+  {
+    "name": "Spacex.csv",
+    "url": "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/labs/module_2/data/Spacex.csv",
+    "sha256": "eab92c7d65e5c7e1eaf3177917283f8dc5ff5cafe5f286bac47e22c4024b997b"
+  },
+  {
+    "name": "wiki_oldid_1027686922.html",
+    "url": "https://en.wikipedia.org/w/index.php?title=List_of_Falcon_9_and_Falcon_Heavy_launches&oldid=1027686922",
+    "sha256": "08fd209f89a5fd2122638a9eea2116d27118437115aee6f310d57b27822e0606"
+  },
+  {
+    "name": "spacex_launch_dash.csv",
+    "url": "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/spacex_launch_dash.csv",
+    "sha256": "e19fe7a7870631d66c9c08c57dea6306aa5d8f721bebe9edbaa3b4fc8419bfd2"
+  }
+]
