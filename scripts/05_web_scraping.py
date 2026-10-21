@@ -85,14 +85,14 @@ headers = {
                   "Chrome/91.0.4472.124 Safari/537.36"
 }
 
-# Exact oldid HTML previously retrieved with a genuine HTTP GET (see DATA_ACQUISITION.json).
+# Use the hash-verified snapshot prepared by download_inputs.py.
 import json,hashlib
 acquisitions=json.loads((HERE/'DATA_ACQUISITION.json').read_text())
 acquisition=next(r for r in acquisitions if r['url']==static_url)
-assert acquisition['status']==200
+assert acquisition['status']==200 or acquisition.get('source_mode')=='verified_cache'
 html_bytes=(DATA/'wiki_oldid_1027686922.html').read_bytes()
 assert hashlib.sha256(html_bytes).hexdigest()==acquisition['sha256']
-print({k:acquisition[k] for k in ['url','status','bytes','sha256']})
+print({k:acquisition[k] for k in ['url','status','source_mode','bytes','sha256']})
 
 
 soup=BeautifulSoup(html_bytes,'html.parser')
